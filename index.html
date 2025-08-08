@@ -1,9 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Hello World Application</title>
+    <meta charset="UTF-8">
+    <title>My Dummy Web App</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f0f2f5;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-<h1>Welcome to my dummy application deployed by Jenkins!</h1>
+
+<header>
+    <h1>🚀 Welcome to My Dummy App</h1>
+    <p>Deployed using Jenkins, Docker & Nginx</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>This is a small HTML application running inside a Docker container.</p>
+</section>
+
+<section id="about">
+    <h2>About</h2>
+    <p>This project was built to test Jenkins CI/CD pipelines and Docker deployment.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Created by: Your Name (replace this with your GitHub/portfolio link)</p>
+</section>
+
+<footer>
+    &copy; 2025 My Dummy App | All rights reserved
+</footer>
+
 </body>
 </html>
